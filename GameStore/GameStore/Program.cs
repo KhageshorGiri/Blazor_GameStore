@@ -33,6 +33,7 @@ builder.Services.AddAuthentication(options =>
     .AddIdentityCookies();
 
 builder.Services.AddIdentityCore<GameStoreUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<GameStoreContext>()
     .AddSignInManager()
     .AddDefaultTokenProviders();
