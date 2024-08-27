@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Components\Pages\GameStore.razor" />
+    <Folder Include="Components\GameStore\" />
   </ItemGroup>
 
 </Project>

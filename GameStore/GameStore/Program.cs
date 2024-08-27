@@ -1,7 +1,6 @@
 ﻿using GameStore.Components;
 using GameStore.Components.Account;
 using GameStore.Data;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
