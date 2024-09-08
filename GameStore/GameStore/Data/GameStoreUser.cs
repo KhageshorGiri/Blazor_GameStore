@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace GameStore.Data
+namespace GameStore.Data;
+
+// Add profile data for application users by adding properties to the ApplicationUser class
+public class GameStoreUser : IdentityUser
 {
-    // Add profile data for application users by adding properties to the ApplicationUser class
-    public class GameStoreUser : IdentityUser
-    {
-    }
 }

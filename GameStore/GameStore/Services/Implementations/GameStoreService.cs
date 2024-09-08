@@ -1,5 +1,5 @@
 ﻿namespace GameStore.Services.Implementations;
 
-public class GameStoreService : IGenerService
+public class GameStoreService : IGameStoreService
 {
 }
